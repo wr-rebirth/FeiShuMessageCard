@@ -19,7 +19,16 @@ git clone 'https://github.com/wr-rebirth/FeiShuMessageCard.git'
 pip intall -r requirements.txt
 ```
 
-# 示例
+## 简单示例
+```shell
+from FeishuCardMessage import FeishuCardMessage
+msg = FeishuCardMessage()
+msg.add_markdown("hello")
+msg.message_send(YOUR_WEBHOOK)
+```
+![alt text](image.png)
+
+# 其他示例
 ```shell
 from FeishuCardMessage import FeishuCardMessage
 msg = FeishuCardMessage()
