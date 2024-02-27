@@ -27,7 +27,7 @@ msg = FeishuCardMessage()
 msg.add_markdown("hello")
 msg.message_send(YOUR_WEBHOOK)
 ```
-![alt text](image.png)
+![alt text](img/image.png)
 
 # 其他示例
 ```shell
@@ -50,7 +50,7 @@ msg.add_dataframe_to_table(df)
 msg.message_send(YOUR_WEBHOOK)
 ```
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 
 ## 配置个性化日志记录
