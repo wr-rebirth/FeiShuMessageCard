@@ -31,7 +31,6 @@ class FeishuCardMessage(object):
             "template": title_color,
             "title": {"content": title + "\n", "tag": "plain_text"},
         }
-        return
 
     def add_series_to_table(
         self, series, flex_mode="none", columns_background_style="default"
