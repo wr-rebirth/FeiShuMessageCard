@@ -9,6 +9,13 @@
 conda create -n FeishuMessageCard python=3.10
 conda activate FeishuMessageCard
 ```
+![alt text](images/image2.png)
+
+## 创建开发目录
+```shell
+mkdir FeishuCardMessage
+cd FeishuCardMessage
+```
 
 ## 拉取项目
 ```shell
@@ -17,7 +24,7 @@ git clone 'https://github.com/wr-rebirth/FeiShuMessageCard.git'
 
 ## 安装依赖
 ```shell
-pip intall -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 简单示例
@@ -27,7 +34,7 @@ msg = FeishuCardMessage()
 msg.add_markdown("hello")
 msg.message_send(YOUR_WEBHOOK)
 ```
-![alt text](img/image.png)
+![alt text](images/image.png)
 
 # 其他示例
 ```shell
@@ -50,7 +57,7 @@ msg.add_dataframe_to_table(df)
 msg.message_send(YOUR_WEBHOOK)
 ```
 
-![alt text](img/image-1.png)
+![alt text](images/image-1.png)
 
 
 ## 配置个性化日志记录
