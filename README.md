@@ -27,6 +27,11 @@ git clone 'https://github.com/wr-rebirth/FeiShuMessageCard.git'
 pip install -r requirements.txt
 ```
 
+安装后的环境
+
+![alt text](images/image-2.png)
+
+
 ## 简单示例
 ```shell
 from FeishuCardMessage import FeishuCardMessage
@@ -34,6 +39,8 @@ msg = FeishuCardMessage()
 msg.add_markdown("hello")
 msg.message_send(YOUR_WEBHOOK)
 ```
+![alt text](images/image-3.png)
+
 ![alt text](images/image.png)
 
 # 其他示例
