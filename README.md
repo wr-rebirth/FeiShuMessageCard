@@ -7,6 +7,7 @@
 ## conda创建虚拟环境
 ```python
 conda create -n FeishuMessageCard python=3.10
+conda activate FeishuMessageCard
 ```
 
 ## 拉取项目
