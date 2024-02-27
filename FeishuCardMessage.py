@@ -13,10 +13,10 @@ class FeishuCardMessage(object):
 
     def message_send(self, webhook, proxy=""):
         content = json.dumps(self.data, default=self.default_handler)
-        r = requests.post(url=webhook, data=content, proxies=proxy, verify=False)
+        r = requests.post(url=webhook, data=content, proxies=proxy)
         logger.info("Sending to Feishu")
         logger.debug("Feishu Message request result: %s", r.json())
-    
+
     def md_add_color(self, text, color):
         return f"<font color={color}>{text}</font>"
 
